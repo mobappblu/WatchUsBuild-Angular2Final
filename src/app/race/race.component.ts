@@ -14,4 +14,8 @@ export class RaceComponent implements OnInit {
   ngOnInit() {
   }
 
+  castDate(date) {
+    return new Date(date);
+  }
+
 }
